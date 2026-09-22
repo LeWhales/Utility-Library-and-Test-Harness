@@ -33,7 +33,21 @@ function Duration(OneDay, OneWeek, OneMonth) {
     let isMonth = (OneMonth >= 31);
 
     let DurationCheck = (isOneDay || isWeek || isMonth)
-
+ if (isOneDay) {
+        return {
+            Use: "one day"
+        }
+    };
+    if (isWeek) {
+        return {
+            Use: "one week"
+        }
+    }
+    if (isOneDay) {
+        return {
+            Use: "one month"
+        }
+    }
 
 };
 function Capacity(single, small, medium) {
