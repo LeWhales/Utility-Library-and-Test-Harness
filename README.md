@@ -1,3 +1,6 @@
+
+(be sure to have visual Studio)
+
 how does this code work?
 
 theres six functions that does all of the work.
